@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+p,
+h2 {
+  color: rgb(188, 194, 196);
+  font-family: "lato", sans-serif;
+}
+.strong{
+  font-weight: bold;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*
+  fixed = parallax scroll = normal*/
+  background-attachment: fixed;
+}
+section img {
+  width: 200px;
+}
+.border {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+}
+
+.pimg1 {
+  background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("https://media.snl.no/media/159815/standard_compressed_otispostcocrev2_NASA.jpg");
+  min-height: 100%;
+}
+
+.pimg3 {
+  background-image: url("https://murals-weblinc.netdna-ssl.com/product_images/starry-deep-outer-space-nebula-and-galaxy-14718596/5ecaa4bc1330df0364b56846/product_large_image.jpg?c=1590338748");
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url("https://media.snl.no/media/159815/standard_compressed_otispostcocrev2_NASA.jpg");
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url("https://media.snl.no/media/159815/standard_compressed_otispostcocrev2_NASA.jpg");
+  min-height: 100%;
+}
+
+.section {
+  text-align: center;
+  padding: 50 80px;
+}
+
+.section-light {
+  background: color #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background: color #282e34;
+  color: rgb(41, 30, 30);
+}
